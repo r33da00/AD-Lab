@@ -135,7 +135,7 @@ Screenshots and detailed configuration examples are available in the `/screensho
 - Domain controller installation steps
 - Network configuration examples
 - Domain join verification
-- Common troubleshooting scenarios
+- Attack's commands and results
 
 ---
 
