@@ -46,7 +46,7 @@ This reveals:
 - Domain Controller hostname
 - LDAP service port (typically 389 or 636 for LDAPS)
 
-See: `Screenshots/enumeration/DNS_enum`
+See: `Screenshots/01-Enumeration/Directory`
 
 #### 3.1.1 Anonymous LDAP Bind Attempt
 
@@ -67,7 +67,7 @@ ldapsearch -x -H ldap://192.168.159.130 -b "dc=draven,dc=me"
 ##### Result
 In this case, the attack failed because anonymous authentication was disabled on the Domain Controller. However, it's always worth attempting as some organizations leave this misconfigured.
 
-See: `Screenshots/enumeration/enum_attacks` folder for detailed results.
+See: `Screenshots/01-Enumeration/Directory` folder for detailed results.
 
 ---
 
@@ -91,7 +91,7 @@ This information is crucial for subsequent attacks such as:
 - Kerberoasting
 - Authentication attempts
 
-See: `/Screenshots/enumeration/DNS_enum`
+See: `Screenshots/01-Enumeration/Directory`
 
 ---
 
